@@ -14,7 +14,7 @@ You can access data from the application through the following endpoints:
 
 https://newsapi.org/v2/everything?q=tesla&apiKey=72230f51b08c4c04a0338594661d2fb5
 ### Setup and installations
-Clone Project to your machine
+Clone Project to your machine https://github.com/Calebbii/News-API.git
 Activate a virtual environment on terminal: source virtual/bin/activate
 Install all the requirements found in requirements file.
 On your terminal run python3.8 manage.py runserver
@@ -24,7 +24,7 @@ python3.8
 virtual environment
 pip
 ### Clone the Repo 
-git clone https:
+git clone https:https://github.com/Calebbii/News-API.git
 Initialize git and add the remote repository
 git init
 git remote add origin <your-repository-url>
@@ -34,11 +34,6 @@ source virtual/bin/activate
 Install dependancies
 Install dependancies that will create an environment for the app to run pip install -r requirements.txt
 
-<!-- ### Make and run migrations
-python3.6 manage.py check
-python manage.py makemigrations news
-python3.6 manage.py sqlmigrate news 0001
-python3.6 manage.py migrate -->
 ### Run the app
 python3.8 manage.py runserver
 Open localhost:5000
