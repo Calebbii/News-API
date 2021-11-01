@@ -12,7 +12,7 @@ See the image of the article he/she wants to read
 ### Endpoints
 You can access data from the application through the following endpoints:
 
-https://newsapi.org/v2/everything?q=tesla&apiKey=b738bd4e5c9745729671e424d00eaaf1
+https://newsapi.org/v2/everything?q=tesla&apiKey=72230f51b08c4c04a0338594661d2fb5
 ### Setup and installations
 Clone Project to your machine
 Activate a virtual environment on terminal: source virtual/bin/activate
