@@ -1,0 +1,43 @@
+{% extends 'base.html'%} 
+{% import 'macros.html' as macro%}
+<!-- Styles block -->
+{% block styles%}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='static/index.css')}}" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+{% endblock %}
+
+{% block content %}
+<div id="index">
+  <div class="row pt-3">
+    <h3 style="font-size: 40px; color:black; text-align:center"><strong>BUSINESS NEWS</strong></h3>
+    <div class="row">{{ macro.displayNewsList(business)}}</div>
+  </div>
+
+  <div class="row pt-3">
+    <h3 style="font-size: 40px; color:black; text-align:center"><strong>ENTERTAINMENT NEWS</strong></h3>
+    <div class="row">{{ macro.displayNewsList(entertainment)}}</div>
+  </div> 
+
+	<div class="row pt-3">
+    <h3 style="font-size: 40px; color:black; text-align:center"><strong>HEALTH NEWS</strong></h3>
+    <div class="row">{{ macro.displayNewsList(health)}}</div>
+  </div>
+
+	<div class="row pt-3">
+    <h3 style="font-size: 40px; color:black; text-align:center"><strong>SCIENCE NEWS</strong></h3>
+    <div class="row">{{ macro.displayNewsList(science)}}</div>
+  </div>
+
+  <div class="row pt-3">
+    <h3 style="font-size: 40px; color:black; text-align:center"><strong>SPORTS NEWS</strong></h3>
+    <div class="row">{{ macro.displayNewsList(sports)}}</div>
+  </div>
+
+  <div class="row pt-3">
+    <h3 style="font-size: 40px; color:black; text-align:center"><strong>TECHNOLOGY NEWS</strong></h3>
+    <div class="row">{{ macro.displayNewsList(technology)}}</div>
+  </div>
+</div>
+
+{% endblock %}
