@@ -20,19 +20,19 @@ https://newsapi.org/v2/everything?q=tesla&apiKey=72230f51b08c4c04a0338594661d2fb
 * On your terminal run python3.8 manage.py runserver
 * Access the live site using the local host provided
 ### Prerequisites
-python3.8
-virtual environment
-pip
+* python3.8
+* virtual environment
+* pip
 ### Clone the Repo 
-git clone https:https://github.com/Calebbii/News-API.git
-Initialize git and add the remote repository
-git init
-git remote add origin <your-repository-url>
-Create and activate the virtual environment
-python3.8-venv virtual
-source virtual/bin/activate
-Install dependancies
-Install dependancies that will create an environment for the app to run pip install -r requirements.txt
+* git clone https:https://github.com/Calebbii/News-API.git
+* Initialize git and add the remote repository
+* git init
+* git remote add origin <your-repository-url>
+* Create and activate the virtual environment
+* python3.8-venv virtual
+* source virtual/bin/activate
+* Install dependancies
+* Install dependancies that will create an environment for the app to run pip install -r requirements.txt
 
 ### Run the app
 python3.8 manage.py runserver
