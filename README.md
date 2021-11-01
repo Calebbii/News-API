@@ -14,7 +14,7 @@ You can access data from the application through the following endpoints:
 
 https://newsapi.org/v2/everything?q=tesla&apiKey=72230f51b08c4c04a0338594661d2fb5
 ### Setup and installations
-*Clone Project to your machine
+ *Clone Project to your machine
 *Activate a virtual environment on terminal: source virtual/bin/activate
 *Install all the requirements found in requirements file.
 *On your terminal run python3.8 manage.py runserver
