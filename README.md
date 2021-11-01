@@ -48,4 +48,4 @@ Boostrap
 HTML
 CSS
 ### License
-MIT Licence Copyright (c) 2021 Caleb Inc.
+[MIT Lisence](https://github.com/Calebbii/Password-Locker/blob/master/LICENSE) Copyright (c) 2021 Calebbii.
